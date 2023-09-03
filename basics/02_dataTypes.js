@@ -1,4 +1,4 @@
-"use strict"; //treat all js code as newer version
+"use strict"; // it treats all js code as newer version
 
 // alert(3 + 3); // we are using node js not browser
 
@@ -7,14 +7,15 @@
 let name = "Sankalp";
 let age = 18;
 let isLoggedIn = false;
+let state;
 
 //number => 2 to  power 53 
 //bigInt => large number 
-//string => " "
+//string => " " or ' '
 //boolean => true or false 
-//null => standalone value
+//null =>  it is a standalone value
 //undefined => 
-//symbol => unique
+//symbol => it helps to define uniqueness in elements
 
 
 //objects
