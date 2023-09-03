@@ -32,3 +32,15 @@ const myFunction = function(){
 }
 
 console.log(typeof outsideTemp);
+
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//stack (Primitive), Heap (Non-Primitive)
+
+let me = "sankalp";
+
+let anotherName = me;
+anotherName = "sank";
+
+console.log(anotherName);
