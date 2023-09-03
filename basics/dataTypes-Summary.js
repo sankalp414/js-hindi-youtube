@@ -11,7 +11,7 @@ let userEmail;
 
 const id = Symbol('124232');
 const anotherId = Symbol('124232')
-console.log(id === anotherId);
+console.log(id === anotherId); // the output will be false because it makes the thing inside the parenthesis unique thats why it is not showing true in the output
 
 
 
