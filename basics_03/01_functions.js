@@ -29,3 +29,23 @@ function loginUserMessage(userName){
 
 // console.log(loginUserMessage("sankalp"));
 console.log(loginUserMessage());
+
+
+function calculateCardPrice(val1,val2,...num1){ //here {...} are rest operator it puts all element in an array
+    return num1;
+
+}
+// console.log(calculateCardPrice(200, 400, 500, 2000));
+
+const user = {
+    userName: "sankalp",
+    price: 199
+}
+
+function handleObject(anyobject){
+    console.log(`UserName is ${anyobject.userName} and the price is ${anyobject.price}`);
+}
+
+// handleObject(user);
+
+
