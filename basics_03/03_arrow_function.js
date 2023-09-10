@@ -9,3 +9,8 @@ const user = {
 }
 
 user.welcomeMessage()
+
+
+const userId = () =>{
+    console.log("hello");
+}
