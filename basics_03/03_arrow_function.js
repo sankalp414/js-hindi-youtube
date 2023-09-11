@@ -14,3 +14,7 @@ user.welcomeMessage()
 const userId = () =>{
     console.log("hello");
 }
+
+const userId1 = ()=>{
+    console.log("hello sir");
+}
