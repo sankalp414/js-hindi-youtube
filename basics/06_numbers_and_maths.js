@@ -17,7 +17,7 @@ const hundereds = 1000000;
 
 // console.log(Math);
 // console.log(Math.abs(-4));
-// console.log(Math.round(4.6));
+// console.log(Math.round(4.6)); it will produce the output in the round figure
 // console.log(Math.ceil(4.6)); // this not used generaly
 // console.log(Math.floor(4.6)); // this is not used generaly
 // console.log(Math.min(4,3,2,1)); 
