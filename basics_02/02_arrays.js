@@ -11,7 +11,7 @@ const dc_heroes = ["SuperMan", "Flash", "BatMan"];
 // console.log(all_heroes);
 
 const all_new_heroes = [...marvel_heroes, ...dc_heroes];
-console.log(all_new_heroes);
+console.log(all_new_heroes); // it will print the output of the array
 
 const anotherArray =[1,2,3,[4,5,6], [6,7, [4,5] ] ];
 
