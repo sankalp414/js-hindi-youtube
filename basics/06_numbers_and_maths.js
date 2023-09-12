@@ -1,5 +1,5 @@
 const score = 400;
-const balance = new Number(100)
+const balance = new Number(10)
 //console.log(balance);
 
 //console.log(balance.toString().length);
