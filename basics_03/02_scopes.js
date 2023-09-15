@@ -41,4 +41,4 @@ const addTwo = function(num){
     return num+2;
 }
 
-addTwo();
+addTwo(); // this function will return number increased by 2
