@@ -12,7 +12,7 @@ function one(){
     two();
 
 }
-one();
+one(); // it is calling the function
 
 
 if(true){
