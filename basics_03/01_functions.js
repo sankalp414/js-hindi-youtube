@@ -8,7 +8,6 @@ function sayMyName(){
 
 // function addTwoNumbers(number1, number2){//these are known as parameters
 //     console.log(number1 + number2)
-
 // }
 function addTwoNumbers(number1, number2){//these are known as parameters which are between the brackets
     let result = number1 + number2;
