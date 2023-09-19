@@ -6,4 +6,8 @@
 
 ((name)=>{
     console.log(`Db connected two ${name}`);
-})(`sankalp`)
+})(`sankalp`);
+
+((date)=>{
+    console.log(`your dob is ${date}`);
+})(`12`)
