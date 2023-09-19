@@ -31,7 +31,7 @@ const chai = () => {
 // const addTwo=(num1, num2)=>{return num1+num2};
 
 // const addTwo=(num1, num2)=>(num1+num2);// in this we dont have to write return 
-const addTwo=(num1, num2)=>({userName: "shanky"}); 
+const addTwo=(num1, num2)=>({userName: "shanky"});  //this can also be written
 
 
 // console.log(addTwo(3,4));
