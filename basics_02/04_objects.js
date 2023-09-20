@@ -6,7 +6,7 @@ tinderUser.id = "123abc";
 tinderUser.name = "shonty";
 tinderUser.isLoggedin = false;
 
-console.log(tinderUser);
+//console.log(tinderUser);
 
 const regularUser ={
     email:"sankalp@gmail.com",
@@ -32,9 +32,10 @@ const obj2 = {
 
 // const obj3 = {obj1, obj2} we cannot do this because it will look like object is under another object
 
-//const obj3 = Object.assign({},obj1, obj2) // this is the right way to do
+//const obj3 = Object.assign({},obj1, obj2) // this is the right way to do because {} gaurantees that the object will be accurate
+// the first thing will be a target and the other one will be  source 
 
-const obj3 = {...obj1, ...obj2};
+const obj3 = {...obj1, ...obj2}; // the most efficiant and mostly used way is by using {...}spread operator
 
 
 //console.log(obj3);
@@ -55,9 +56,9 @@ const users = [
 ];
 
 // console.log(tinderUser);
-// console.log(Object.keys(tinderUser));
-// console.log(Object.values(tinderUser));
-// console.log(Object.entries(tinderUser));
+// console.log(Object.keys(tinderUser)); // by this we can extract key of the object
+// console.log(Object.values(tinderUser)); // by this we can extract the values of the object
+// console.log(Object.entries(tinderUser)); 
 
 
 
@@ -69,7 +70,7 @@ const course = {
 
 // course.courseInstructor
 
-const {courseInstructor: instructor} = course;
+const {courseInstructor: instructor} = course; // this is known as destructuring it helps to call something more easily 
 
-console.log(instructor);
+console.log(instructor); // now if we want to print courseInstructor so we can write instructor by the help of destructuring
 
