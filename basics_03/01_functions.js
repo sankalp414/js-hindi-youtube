@@ -1,7 +1,7 @@
 // functions
 
 function sayMyName(){
-    console.log("don");
+    console.log("don"); // this will print the value when the function is beinmg called
 }
 
 // sayMyName();
