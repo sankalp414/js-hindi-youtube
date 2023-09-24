@@ -12,7 +12,7 @@
 //     console.log(`Each char is ${greet}`);    
 // }
 
-// Maps
+// Maps it is known as for having unique values in this the key value pair cnnot be repeated
 
 const map =new Map();
 map.set('IN', "India");
@@ -31,6 +31,6 @@ const myobject = {
     'game1': 'NFS',
     'game2': 'Spiderman'
 }
-// for (const [key, value] of myobject) {
+// for (const [key, value] of myobject) {  //it shows error that objects are not iterables
 //     console.log(key, ':-', value);
 // }
