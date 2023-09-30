@@ -1,4 +1,4 @@
-// switch (key) {
+// switch (key) { // it is used when we have to check the output
 //     case value:
         
 //         break;
