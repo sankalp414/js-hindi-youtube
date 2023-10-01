@@ -10,7 +10,7 @@ const temperature =41;
 //     console.log("tremeprature is greater then 50");
 // }
 
-// <, >, <=, >=, ==, !=, ===, !==
+// <, >, <=, >=, ==, !=, ===, !== these are the comparison operators which are used to compare two values
 
 
 // const score = 200;
