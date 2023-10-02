@@ -11,6 +11,6 @@ const myObject ={
 
 const programming =["js", "rb", "py", "java", "cpp"];
 
-for (const key in programming) { // this is an for in loop
+for (const key in programming) { // this is an for in loop which is mainly used for array
     console.log(programming[key]);
 }
