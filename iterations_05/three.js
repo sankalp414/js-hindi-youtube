@@ -1,7 +1,7 @@
 // for of
 
 // const arr = [1,2,3,4];
-// for (const num of arr) {
+// for (const num of arr) { // it loops over the array
 //     console.log(num);
 // }
 
@@ -9,10 +9,10 @@
 // const greetings = "hello world";
 
 // for (const greet of greetings) {
-//     console.log(`Each char is ${greet}`);    
+//     console.log(`Each char is ${greet}`);// the output will contain each letter of the word in each line in the output    
 // }
 
-// Maps it is known as for having unique values in this the key value pair cnnot be repeated
+// Maps it is known as for having unique values in this the key value pair cannot be repeated
 
 const map =new Map();
 map.set('IN', "India");
@@ -21,7 +21,7 @@ map.set('FR', 'France');
 
 // console.log(map);
 
-for (const [key, value] of map) {
+for (const [key, value] of map) { //if we want to take key and value seprately we should use []
     console.log(key, ':-', value);
     
 }
