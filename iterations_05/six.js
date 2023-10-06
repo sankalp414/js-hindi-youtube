@@ -3,7 +3,7 @@
 // const values = coding.forEach((item)=>{
 //     console.log(item);
 //     return item
-// }) // it doesnot returns the value 
+// }) // it doesnot returns the value by default
 
 // console.log(values);
 
