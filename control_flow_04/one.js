@@ -1,4 +1,4 @@
-// if 
+// if conditional statement
 
 const isUserLoggedIn = true;
 
