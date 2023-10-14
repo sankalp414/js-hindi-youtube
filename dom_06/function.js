@@ -53,9 +53,6 @@ document.getElementsByClassName()//in this we will get an html collections as th
 
 // Array.from(templist) the templist is the variable which will store the value given by the line no. 45
 
-//now we can use all the methods of the array
-
-
 
 
 
