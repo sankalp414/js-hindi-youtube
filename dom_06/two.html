@@ -15,18 +15,26 @@
     <script>
         const parent = document.querySelector('.parent');
         console.log(parent);
-        console.log(parent.children);
+        console.log(parent.children); // here you will get HTML collections
         console.log(parent.children[1]);
         console.log(parent.children[1].innerHTML); //can access by it also
 
-        for (let i = 0; i < parent.children; i++) {
-            console.log(parent.children[i].innerHTML);;
+        // for (let i = 0; i < parent.children; i++) {
+        //     console.log(parent.children[i].innerHTML);//this will print all the value of the children
             
-        }
-        // console.log(parent.firstElementChild);
-        // console.log(parent.lastElementChild); 
+        // }
+        parent.children[1].style.color = "orange";
+        // console.log(parent.firstElementChild); //it will give the first element of the child
+        // console.log(parent.lastElementChild); //it will give the the last element of the child
+        
+        // not all the time we have to move from parent to child we can also go from child to parent
+       //like this
 
-       
+       const dayOne = document.querySelector(".day");
+
+    //    console.log(dayOne.parentElement);
+
+
 
     </script>
 </body>
