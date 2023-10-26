@@ -10,7 +10,7 @@ accountEmail = "hdjdkd";
 accountPassword = "2343334";
 accountCity = "Jaipur";
 
-// console.log(accountId);
+// console.log(accountId); it will print the account id
 /*
 
 prefer not to use var because of issue with block scope and functional scope
