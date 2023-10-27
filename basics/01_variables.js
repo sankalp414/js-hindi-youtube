@@ -1,5 +1,5 @@
 const accountId = 144553; 
-let accountEmail= "nanananjsjs";
+let accountEmail= "nanananjsjs"; // variable declared using let
 var accountPassword = "12323";
 accountCity = "Bhilai";
 let accountState ;
