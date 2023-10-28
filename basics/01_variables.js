@@ -4,7 +4,7 @@ var accountPassword = "12323";
 accountCity = "Bhilai";
 let accountState ;
 
-//accountId =2;//not allowed
+//accountId =2;//not allowed in js
 
 accountEmail = "hdjdkd";
 accountPassword = "2343334";
