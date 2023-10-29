@@ -6,7 +6,7 @@ let accountState ;
 
 //accountId =2;//not allowed in js
 
-accountEmail = "hdjdkd";
+accountEmail = "hdjdkd"; //variable email
 accountPassword = "2343334";
 accountCity = "Jaipur";
 
