@@ -5,7 +5,7 @@ const balance = new Number(10);
 //console.log(balance.toString().length);
 //console.log(balance.toFixed(1));
 
-const otherNumber = 123.89777;
+const otherNumber = 123.89777; //variable
 
 //console.log(otherNumber.toPrecision(3));
 
