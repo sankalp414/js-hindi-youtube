@@ -38,7 +38,7 @@ let str1 = "hello";
 let str2 = " Sankalp";
 
 let str3 = str1 +str2;
-console.log(str3); // output will be the value of str3 in baic
+console.log(str3); // output will be the value of str3 in basic
 
 
 console.log("1" + 2); //output will be 12
