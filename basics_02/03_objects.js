@@ -3,7 +3,7 @@
 
 //object literals
 const mySym = Symbol("key1"); // here we declare a symbol
-const JsUser = {
+const JsUser = { // object
     name: "sankalp", //by default all of this accesed as a string
    "fullname": "sankalp sharma", //it cannot be accessed by . notation so we have to access it by the help of [""]
     age: 21,

@@ -26,7 +26,7 @@ const newArr = myArr.join(); // adds all the element of the array into the strin
 
 //slice, splice
 
-console.log("A ", myArr);
+console.log("A ", myArr); // console.log
 
 const myn1 = myArr.slice(1,3); //it returns the copy of section of an array
 console.log(myn1);
