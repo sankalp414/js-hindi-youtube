@@ -18,7 +18,7 @@ console.log(all_new_heroes); // it will print the output of the array
 const anotherArray =[1,2,3,[4,5,6], [6,7, [4,5] ] ];
 
 const real_another_array = anotherArray.flat(Infinity); // it returns the array concatinated recusively we can also give the depth till which we want to concatinate
-console.log(real_another_array);
+console.log(real_another_array); //console.log array
 
 
 
