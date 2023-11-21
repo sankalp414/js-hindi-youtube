@@ -28,6 +28,6 @@ console.log(Array.from({name: "sankalp"})); //interesting case because we have t
 
 let score1 = 100;
 let score2 = 200;
-let score3 = 300;
+let score3 = 600;
 
 console.log(Array.of(score1,score2,score3));
