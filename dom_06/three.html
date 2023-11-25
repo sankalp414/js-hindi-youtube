@@ -6,7 +6,23 @@
     <title>three</title>
 </head>
 <body>
-<h1>hello </h1>//
-</body>
 
+</body>
+<script>
+    const div = document.createElement('div'); // it will create the element
+    div.className = "main";
+    // div.id = "myId";
+    div.id = Math.round(Math.random() * 10 + 1); // it will create the id
+    div.setAttribute("title", "generated title") // this will create attribute 
+
+    div.style.backgroundColor = "green"; // this will create background of color green
+
+    const addText=document.createTextNode("Sankalp");
+    div.appendChild(addText);
+
+    document.body.appendChild(div);
+
+
+
+</script>
 </html>
